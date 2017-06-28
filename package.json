@@ -1,0 +1,54 @@
+{
+  "name": "describe-react-element",
+  "version": "0.1.0",
+  "description": "Textualize react elements for testing and debugging",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autopilotconsulting/describe-react-element.git"
+  },
+  "keywords": [
+    "reactjs",
+    "describe",
+    "string",
+    "pretty",
+    "print"
+  ],
+  "author": {
+    "name": "D. Patrick Caldwell",
+    "email": "tncbbthositg@gmail.com",
+    "url": "http://www.autopilotconsulting.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autopilotconsulting/describe-react-element/issues"
+  },
+  "homepage": "https://github.com/autopilotconsulting/describe-react-element#readme",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "jest-environment-node-debug": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ],
+    "plugins": [
+      "transform-react-jsx",
+      "transform-object-rest-spread"
+    ]
+  },
+  "dependencies": {
+    "array-flatten": "^2.1.1"
+  }
+}
