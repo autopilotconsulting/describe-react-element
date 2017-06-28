@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage --colors source",
     "build": "babel source --out-dir distribution --ignore **/*/__tests__/*",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
