@@ -11,7 +11,7 @@ npm install describe-react-element --save
 ## Usage
 
 ```javascript
-var { describeReactElement } = require('describe-react-element')
+import { describeReactElement } = require('describe-react-element')
 
 const element = (
   <div name='pip' adorbs={true}>
